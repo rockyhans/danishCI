@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 20px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: wheat;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.headerVisit {
+  height: 70px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.logoImg {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.userIV {
+  display: flex;
+}
+
+.userIV img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.ndNav {
+  height: 60px;
+  color: white;
+  align-items: center;
+  display: flex;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  padding: 30px;
+  border-bottom: 3px solid skyblue;
+  background-color: #001d24;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1000px) {
+  .ndNav {
+    height: auto;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px; /* Adjust the gap size as needed */
+  }
+  .tab-buttons {
+    display: flex;
+    gap: 20px; /* Adjust the gap size as needed */
+
+    flex-direction: column;
+  }
+  .inpOut {
+    flex-direction: column;
+  }
+  .ele1 {
+    width: 100%;
+  }
+
+  .ele2 {
+    padding-top: 10px;
+    width: 100% !important;
+    border-left: none !important;
+    border-top: 3px double rgb(255, 250, 250, 0.3);
+  }
+
+  .input-textarea {
+    height: 150px !important;
+  }
+
+  
+}
+
+.aiPageV {
+  width: 98%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1%;
+  border-radius: 10px;
+  height: auto;
+}
+.aiPageV input {
+  box-shadow: 0px 0px 10px rgb(10, 7, 7);
+  background-color: transparent;
+}
+.pad {
+  margin-top: 20px;
+}
+
+.hight {
+  width: 90%;
+  margin-left: 0%;
+  height: 300px;
+  margin-left: 1.5%;
+  outline: none;
+}
+
+.enterText {
+  height: 20px;
+}
+
+.textArea {
+  font-size: 16px;
+  background-color: transparent;
+  padding: 10px;
+  color: rgb(245, 211, 124);
+  outline: none;
+  border: none;
+}
+
+.sub {
+  background-color: #0b89f8;
+  color: rgb(17, 0, 32);
+  cursor: pointer;
+  border: none;
+  margin: 0 40px;
+  margin-top: 20px;
+}
+
+.colorChangeBtn {
+  background-color: #0395f7;
+  color: rgb(17, 0, 32);
+  margin: 0 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 1s ease;
+  margin-top: 20px;
+}
+
+.CompilerVisit {
+  height: auto;
+  background-size: cover;
+  height: auto;
+  border-top: none;
+  background-color: #001d24;
+}
+
+.editor-containerV {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgb(38, 36, 36);     */
+  /* background-image: url("https://oregoncapitalchronicle.com/wp-content/uploads/2024/02/AI-artificial-intelligence-Getty-1536x864.jpg"); */
+}
+
+.inpOut {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px double rgb(255, 250, 250, 0.3);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.oxxxx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.oxxxx button {
+  background-color: transparent;
+  border: none;
+  color: snow;
+}
+
+.oxxxx button:hover {
+  background-color: rgb(70, 69, 69);
+}
+
+.fffff {
+  display: flex;
+}
+
+.aiSolution::-webkit-scrollbar {
+  width: 8px;
+}
+
+.aiSolution::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 20px;
+}
+
+.aiSolution::-webkit-scrollbar-thumb {
+  background-color: wheat;
+  border-radius: 10px;
+}
+
+.aiSolution::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.ele0 {
+  width: 100%;
+  height: auto;
+  border: 3px double rgb(255, 250, 250, 0.3);
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.ele0 main {
+  height: 200px;
+}
+
+.ele1 {
+  width: 100%;
+  border-radius: 0px 0px 0px 10px;
+  /* border: none; */
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.compWri {
+  text-align: left;
+  margin-left: 1%;
+  color: #f1f1f1;
+  margin-top: 5px;
+}
+
+.submit {
+  background-color: #0395f7;
+  color: rgb(17, 0, 32);
+  cursor: pointer;
+}
+
+.editor {
+  width: 98%;
+  margin-left: 1%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 1rem;
+  height: 450px;
+  overflow: auto !important;
+  max-height: 500px;
+  max-height: 1000px;
+  border: 1px solid snow;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(5px); /* For older WebKit browsers */
+  backdrop-filter: blur(100px);
+  background-color: #012e39;
+}
+
+.ele2 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0px 0px 10px 0px;
+  border-left: 3px double rgb(255, 250, 250, 0.3);
+}
+
+.iptDiv {
+  width: 100%;
+  border-bottom: 1px solid snow;
+  padding: 5px;
+}
+
+.iptDiv h3 {
+  color: snow;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.input-textarea {
+  width: 90%;
+  background-color: transparent;
+  padding: 10px;
+  height: 80px;
+  border-radius: 10px;
+  color: #f9f3ab;
+}
+
+.clear-input-btn {
+  background-color: transparent;
+  border: none;
+  color: #97bff9;
+}
+
+.clear-input-btn:hover {
+  background-color: rgb(74, 74, 74);
+}
+
+.optDiv {
+  width: 100%;
+  padding: 10px;
+}
+
+.error {
+  white-space: pre-wrap;
+  padding: 10px;
+  background-color: transparent;
+  color: #f9f3ab;
+  text-align: left;
+}
+
+.output {
+  white-space: pre-wrap;
+  padding: 10px;
+  background-color: transparent;
+  color: rgb(245, 211, 124);
+  text-align: left;
+  width: 90%;
+  height: 350px;
+  border: none;
+}
+
+.comH1V {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+  text-shadow: 0px 0px 15px orangered;
+  color: snow;
+  /* background-color: black; */
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.tab-buttons button.active {
+  background-color: #61dafb;
+  border: none;
+}
+
+.tab-buttons button:not(.active) {
+  background-color: transparent;
+  color: white;
+  border: 1px solid default;
+}
+
+.outputDiv {
+  height: 80%;
+}
+
+.compiler {
+  display: none;
+}
+
+.compiler.active {
+  display: block;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+.App1 {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #001d24;
+  /* border: 20px solid black; */
+  border-top: none;
+  background-image: url(../assets/b1Web.png);
+}
+
+.logoImg {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+a h3 {
+  font-family: cursive;
+  text-decoration: none;
+  color: green;
+}
+a h3:hover {
+  color: greenyellow;
+}
+
+.ndNav {
+  /* height: 60px; */
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 7px;
+}
+
+.colorChangeBtn {
+  background-color: #0395f7;
+  color: rgb(17, 0, 32);
+  margin: 0 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 1s ease;
+  margin-top: 20px;
+}
+
+.colorChangeBtn.clicked {
+  background-color: #02f4fd;
+}
+
+.editor::-webkit-scrollbar {
+  width: 8px;
+}
+
+.editor::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.editor::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Custom Green Theme for CodeMirror */
+.cm-green-theme .CodeMirror {
+  background: #2e3b2f !important; /* Dark green background */
+}
+.cm-green-theme .CodeMirror-gutters {
+  background: #2e3b2f !important;
+}
+.cm-green-theme .CodeMirror-line::selection {
+  background: rgba(50, 205, 50, 0.3); /* Green selection */
+}
+.cm-green-theme .cm-keyword {
+  color: #98fb98 !important; /* Light green keywords */
+}
+.cm-green-theme .cm-string {
+  color: #8fbc8f !important; /* Sage green strings */
+}
+.cm-green-theme .cm-variable {
+  color: #66cdaa !important; /* Aquamarine variables */
+}
+
+.aiPageV .ele2 {
+  border: none;
+}
+
+.ele22 {
+  height: 250px;
+  width: 250px;
+  margin-left: 20%;
+  box-shadow: 0px 0px 100px rgb(1, 92, 84);
+  margin: auto auto;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://img.freepik.com/premium-photo/creative-light-bulb_1057389-16941.jpg?w=360");
+}
